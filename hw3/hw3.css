@@ -1,0 +1,43 @@
+html {
+  font-family: sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(31, 1, 1);
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table td,
+th {
+  border: 1px solid rgb(190, 190, 190);
+  padding: 10px 20px;
+}
+
+.table th {
+  background-color: rgb(235, 235, 235);
+}
+
+.table td {
+  text-align: center;
+}
+
+.table tr:nth-child(even) td {
+  background-color: rgb(250, 250, 250);
+}
+
+.table tr:nth-child(odd) td {
+  background-color: rgb(245, 245, 245);
+}
+
+.search {
+  width: 800px;
+  height: 20px;
+  border-radius: 30px;
+  border: 2px solid #8e908c;
+  padding: 20px;
+  margin: 0px auto;
+}

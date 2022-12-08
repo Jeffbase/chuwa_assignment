@@ -17,9 +17,9 @@ const itemsObject = [
 const doubleItemsValue = (itemsObject) => {
   //   console.log(itemsObject[0]["quantity"]);
 
-  return itemsObject.map((ele) => ({
-    ["quantity"]: ele.quantity * 2,
-    ["price"]: ele.price * 2,
+  return itemsObject.map(({ quantity, price }) => ({
+    quantity: quantity * 2,
+    price: price * 2,
   }));
 };
 
@@ -51,13 +51,15 @@ const expectedReturnString =
   "perhaps the easiest to understand case for reduce is to return the sum of all the elements in an array";
 
 const optimizeString = (string) => {
-  return string
-    .split(/[^A-Za-z]/)
-    .map((x) => x.toLowerCase())
-    .filter((ele) => ele != "")
-    .join(" ");
+  return (
+    string
+      .split(/[^A-Za-z]+/)
+      .map((x) => x.toLowerCase())
+      // .filter((ele) => ele != "")
+      .join(" ")
+  );
 };
-// console.log(optimizeString(string));
+console.log(optimizeString(string));
 
 /*
   
@@ -108,4 +110,4 @@ const mergeObjects = (first, second) => {
   return Object.values(dict);
 };
 
-console.log(mergeObjects(first, second));
+// console.log(mergeObjects(first, second));
