@@ -1,0 +1,47 @@
+.modal-content {
+  padding: 0 24px;
+}
+.email-group {
+  margin-bottom: 30px;
+}
+.email-group p {
+  font-size: 16px;
+  color: #6b7280;
+  margin-bottom: 8px;
+  margin-top: 15px;
+}
+
+.password-group {
+  margin-bottom: 30px;
+}
+
+.password-group p {
+  font-size: 16px;
+  color: #6b7280;
+  margin-bottom: 8px;
+}
+
+/* .sign-in-button {
+  height: 47px;
+} */
+
+.modal-footer {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 22px;
+  margin-bottom: 50px;
+}
+
+.modal-footer p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 157%;
+  color: #6b7280;
+}
+
+p {
+  margin-bottom: 0;
+}

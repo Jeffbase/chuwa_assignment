@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.register {
+  font-size: small;
+}
+
+.modal p {
+  color: rgb(100, 105, 112);
+}
+
+.modal input {
+  border: 1px solid rgb(100, 105, 112);
+  border-radius: 5px;
+  height: 40px;
+}
+
+.header-container {
+  background-color: rgb(15, 21, 34);
+  height: 50px;
+}
+
+.header-container p {
+  color: white;
+  margin-bottom: 0;
+}
+
+.header-container h1 {
+  color: white;
+  margin-bottom: 0;
+}
+.header-container h2 {
+  color: white;
+  margin-bottom: 0;
+}
+.header-container h3 {
+  color: white;
+  margin-bottom: 0;
+}
+.header-container h4 {
+  color: white;
+  margin-bottom: 0;
+}
+.header-container h5 {
+  color: white;
+  margin-bottom: 0;
+}
+.header-container h6 {
+  color: white;
+  margin-bottom: 0;
+}
+.header-container span {
+  color: white;
+  margin-bottom: 0;
+}
+.search {
+  width: 300px;
+  margin: 0.2% auto;
+}
+
+.password {
+  border: 1px solid rgb(100, 105, 112);
+  border-radius: 5px;
+}
+.password:focus-within {
+  outline: 1px solid blue;
+}
+.password input {
+  border: none;
+}
+.password input:focus {
+  outline: none;
+}
