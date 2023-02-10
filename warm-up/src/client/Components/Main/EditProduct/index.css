@@ -1,0 +1,66 @@
+@media only screen and (min-width: 501px) {
+  .profile-frame {
+    width: 1440px;
+    padding: 70px 390px;
+    margin: 0 auto;
+  }
+  .profile-title,
+  .product-form-name,
+  .product-form-description,
+  .product-form-category,
+  .product-form-stock {
+    margin-bottom: 24px;
+  }
+
+  /* .profile-frame Select,
+  .profile-frame Input {
+    height: 56px;
+  } */
+
+  .product-form {
+    background-color: white;
+    padding: 25px 48px;
+  }
+  .product-form p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #6b7280;
+
+    margin-bottom: 8px;
+  }
+
+  /* .product-form-name-input {
+    height: 56px;
+  } */
+
+  .product-form-category-select {
+    width: 278px;
+  }
+  .product-form-price {
+    width: 278px;
+  }
+  .product-form-stock {
+    width: 196px;
+  }
+  .product-form-img-link {
+    width: 357px;
+  }
+  .product-form-img {
+    width: 388px;
+    height: 200px;
+
+    margin: 0 auto;
+
+    border: 1px dashed #cccccc;
+    border-radius: 4px;
+
+    margin-bottom: 18px;
+  }
+  .product-form-img img {
+    margin-top: 60px;
+  }
+}

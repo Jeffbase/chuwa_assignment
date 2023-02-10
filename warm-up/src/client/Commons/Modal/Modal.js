@@ -14,7 +14,7 @@ const MyModal = ({ children, titleText, visible, width, setVisible }) => {
           {titleText}
         </Title>
       }
-      visible={visible}
+      open={visible}
       footer={null}
       onCancel={() => {
         setVisible(false);
